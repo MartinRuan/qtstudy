@@ -12,7 +12,8 @@ TARGET = finddialog
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp
+SOURCES += main.cpp \
+    finddialog.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += \
+    finddialog.h
